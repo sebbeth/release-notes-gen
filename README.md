@@ -4,6 +4,7 @@
 
 This is a little cli tool built using deno that generates release notes from jira tickets.
 It is incomplete at this stage, but solved a problem I had.
+It takes two git commits, finds every commit between them, extracts any Jira issue IDs within the commit messages and then prints the issue summaries for each issue found.
 
 It can be used like this to generate release notes:
 
