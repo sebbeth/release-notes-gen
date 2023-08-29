@@ -8,7 +8,7 @@ It is incomplete at this stage, but solved a problem I had.
 It can be used like this to generate release notes:
 
 ```
-release-notes first-commit-sha last-commit-sha <your jira subdomain> <your jira username> <your jira api key>
+$ release-notes first-commit-sha last-commit-sha <your jira subdomain> <your jira username> <your jira api key>
 # outputs (example):
 
 ## Bugs
