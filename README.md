@@ -2,8 +2,28 @@
 
 ## 🤔 What is this thing?
 
-This is a little cli tool written in deno that generates release notes from jira tickets.
+This is a little cli tool built using deno that generates release notes from jira tickets.
 It is incomplete at this stage, but solved a problem I had.
+
+It can be used like this to generate release notes:
+
+```
+release-notes first-commit-sha last-commit-sha <your jira subdomain> <your jira username> <your jira api key>
+# outputs (example):
+
+## Bugs
+
+- [Done] ABC-123: Posts don't load
+
+## Tasks
+
+- [Done] ABC-123: Ci/Cd setup
+
+## Storys
+
+- [Done] ABC-123: AAU IWT add a post STI can share a post with my subscribers
+
+```
 
 ## 🛣️ Roadmap:
 
